@@ -10,6 +10,8 @@ header h1{
     color: #c71818e2;
     text-align: center;
     margin-bottom: 2rem;
+    box-shadow: 0 0 15px grey;
+    background-color:  #f7c200;
     
 }
 
@@ -25,5 +27,5 @@ header p{
 .header-container{
     max-width: 1500px;
     font-family: 'Laila', sans-serif;
-    font-weight: lighter;
+    font-weight: 500;
 }
