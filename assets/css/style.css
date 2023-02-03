@@ -1,31 +1,52 @@
+/* region common rules */
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-header h1{
-    font-family: 'Monoton', cursive;
-    font-size: 4rem;
-    color: #c71818e2;
-    text-align: center;
-    margin-bottom: 2rem;
-    box-shadow: 0 0 15px grey;
-    background-color:  #f7c200;
+.left{
+    float: left;
+}
+
+.image{
+    width: 120px;
+}
+
+.col-4{
+    background-color: black;
     
 }
 
-header p{
+/* 
+endregion common rules */
+
+
+/* utilities */
+
+main{margin-top: 2rem;}
+
+header{
+    background-color: blueviolet;
     text-align: center;
-    padding: 0 5rem;
-    margin-bottom: 1rem;
 }
 
-
-/* UTILITY */
-
-.header-container{
-    max-width: 1500px;
-    font-family: 'Laila', sans-serif;
-    font-weight: 500;
+.container{
+    max-width: 1140px;
+    margin: auto;
 }
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+col-4{
+    float: left;
+    width: calc((100%/12) * 4);
+    padding: 1rem;
+}
+
