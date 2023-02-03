@@ -33,14 +33,24 @@ main{
 }
 
 header{
-    background-color: blueviolet;
+    background-color: #0627c9f5;
     text-align: center;
     font-family: 'Laila', sans-serif;
-    height: 150px;
+    border-bottom: 2px solid black;
+    
+}
+
+#header_h1{
+    font-weight: 800;
+    font-size: 3rem;
+    padding-top: 1rem;
 }
 
 #header-p{
     padding-top: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
 }
 .container{
     max-width: 1400px;
@@ -56,14 +66,12 @@ header{
 .col-4{
     float: left;
     width: calc((100% / 12) * 4);
-    padding: 1rem;
-   
 }
 
 .details{
     float: left;
     padding: 1rem;
-   
+    
     background-color: black;
     color: white;
 }
@@ -74,6 +82,9 @@ header{
 
 .py{
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2.2rem;
 }
 
+.p_text{
+    padding-bottom: 0.8rem;
+}
