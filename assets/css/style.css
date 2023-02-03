@@ -37,6 +37,7 @@ header{
     text-align: center;
     font-family: 'Laila', sans-serif;
     border-bottom: 2px solid black;
+    box-shadow: 0 0 15px;
     
 }
 
@@ -73,7 +74,7 @@ header{
     padding: 1rem;
     
     background-color: black;
-    color: white;
+    color: #fafafa;
 }
 
 .card >.image{
@@ -87,4 +88,8 @@ header{
 
 .p_text{
     padding-bottom: 0.8rem;
+}
+
+.card{
+    padding-bottom: 5rem;
 }
