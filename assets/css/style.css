@@ -9,16 +9,14 @@
 
 .left{
     float: left;
+   
 }
 
-.image{
-    width: 120px;
+img{
+    max-width: 100%;
 }
 
-.col-4{
-    background-color: black;
-    
-}
+
 
 /* 
 endregion common rules */
@@ -26,27 +24,56 @@ endregion common rules */
 
 /* utilities */
 
-main{margin-top: 2rem;}
+main{
+    margin-top: 4rem;
+}
+
+#app-main{
+    font-family: 'Laila', sans-serif;
+}
 
 header{
     background-color: blueviolet;
     text-align: center;
+    font-family: 'Laila', sans-serif;
+    height: 150px;
 }
 
+#header-p{
+    padding-top: 2rem;
+}
 .container{
-    max-width: 1140px;
+    max-width: 1400px;
     margin: auto;
 }
 
-.row::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
-col-4{
+.col-4{
     float: left;
-    width: calc((100%/12) * 4);
+    width: calc((100% / 12) * 4);
     padding: 1rem;
+   
+}
+
+.details{
+    float: left;
+    padding: 1rem;
+   
+    background-color: black;
+    color: white;
+}
+
+.card >.image{
+    width: calc(100% / 3);
+}
+
+.py{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
